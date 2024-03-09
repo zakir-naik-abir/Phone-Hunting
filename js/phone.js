@@ -94,7 +94,7 @@ const showPhoneDetailes = (phone) => {
 
   const showDetailContainer = document.getElementById('show-detail-container');
   showDetailContainer.innerHTML = `
-    <img src="${phone.image}" alt="image"/>
+    <img class="items-center text-center m-auto mb-4 bg-slate-300 " src="${phone.image}" alt="image"/>
     <h3 class="font-bold text-3xl">${phone.name}</h3>
     <p class="font-bold text-lg"><span>Storage: </span>${phone?.mainFeatures?.storage}</p>
     <p class="font-bold text-lg"><span>Display: </span>${phone?.mainFeatures?.displaySize}</p>
